@@ -1,0 +1,19 @@
+.main_task_list {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+  padding: 1rem;
+  align-items: flex-start;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  color: var(--gray-200);
+}
+
+.main_task_list p {
+  flex: 1;
+}
+
+.isComplete {
+  text-decoration: line-through;
+}

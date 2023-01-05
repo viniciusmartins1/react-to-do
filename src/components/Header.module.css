@@ -1,0 +1,28 @@
+.header {
+  background-color: var(--gray-700);
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+}
+
+.header_img {
+  width: 1.82rem;
+  height: 2.6rem;
+  margin: 5.125rem 0;
+}
+
+.header_title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 3rem;
+  text-align: center;
+  margin: 4.5rem 0 5rem 0;
+  font-family: "Inter", sans-serif;
+  color: var(--blue-200);
+}
+
+.header_title > span {
+  color: var(--purple-500);
+}
